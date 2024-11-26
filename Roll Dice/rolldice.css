@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+}
+.box{
+    height: auto;
+    width: 400px;
+    padding: 40px;
+    border: 2px solid black;
+    border-radius: 4px;
+}
+.box .head{
+    text-align: center;
+    margin-bottom: 10px;
+}
+.box .inputs{
+    padding: 10px;
+    width: 100%;
+}
+.box .inputs input{
+    width: 58%;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 4px;
+}
+.box .inputs button{
+    width: 40%;
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid black;
+    color: white;
+    font-weight: 600;
+    background-color: black;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.box .result{
+    padding-top: 20px;
+    text-align: center;
+}
+.box .diceimg{
+    padding-top: 20px;
+    text-align: center;
+}
+.box .diceimg .imgd{
+    height: 150px;
+    width: 150px;
+    padding: 5px;
+}

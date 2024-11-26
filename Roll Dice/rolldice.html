@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Roll Dice Game</title>
+    <link rel="stylesheet" href="rolldice.css">
+</head>
+
+<body>
+    <div class="box">
+        <div class="head">
+            <h2>ROLL THE DICE</h2>
+        </div>
+        <div class="inputs">
+            <input type="number" name="roll" id="roll" class="roll" value="1" min="1" max="6">
+            <button class="submit" type="submit" onclick="rollDice()">Roll Dice</button>
+        </div>
+        <div class="result" id="result">
+
+        </div>
+        <div id="diceimg" class="diceimg">
+
+        </div>
+    </div>
+
+    <script src="rolldice.js"></script>
+</body>
+
+</html>

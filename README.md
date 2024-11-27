@@ -11,4 +11,5 @@ This repository serves as:
 ## Projects Included
 Here’s a list of the projects (updated regularly):
 1. **Roll Dice Game** - A program which roll dice of your desire numbers and show the result through images and values of the dice.
-2. _More projects coming soon..._
+2. **Message Generator** - Outputs a user-entered message to their desired times.
+3. _More projects coming soon..._

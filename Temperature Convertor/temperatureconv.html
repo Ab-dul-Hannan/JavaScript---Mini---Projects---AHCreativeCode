@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperature Conversion Program</title>
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            background: linear-gradient(135deg, #74ebd5, #9face6);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            color: #333;
+        }
+
+        .box {
+            background-color: #ffffff;
+            padding: 25px 35px;
+            border-radius: 15px;
+            box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2);
+            text-align: center;
+            max-width: 350px;
+            width: 100%;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .box:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 25px rgba(0, 0, 0, 0.3);
+        }
+
+        h2 {
+            color: #333333;
+            margin-bottom: 20px;
+            font-size: 24px;
+        }
+
+        input[type="number"] {
+            width: 90%;
+            padding: 10px;
+            margin-bottom: 20px;
+            border: 1px solid #cccccc;
+            border-radius: 8px;
+            font-size: 16px;
+            transition: border-color 0.3s ease;
+        }
+
+        .input{
+            display: flex;
+            margin-bottom: 15px;
+        }
+
+        input[type="number"]:focus {
+            outline: none;
+            border-color: #007bff;
+        }
+
+        label {
+            font-size: 16px;
+            color: #555555;
+        }
+
+        input[type="radio"] {
+            margin-right: 8px;
+        }
+
+        button {
+            background-color: #007bff;
+            color: #ffffff;
+            border: none;
+            width: 100%;
+            padding: 12px 25px;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 16px;
+            font-weight: bold;
+            margin-top: 10px;
+            box-shadow: 0 5px 10px rgba(0, 123, 255, 0.3);
+            transition: background-color 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        button:hover {
+            background-color: #0056b3;
+            box-shadow: 0 8px 15px rgba(0, 86, 179, 0.4);
+        }
+
+        #result {
+            margin-top: 25px;
+            font-weight: bold;
+            font-size: 18px;
+            color: #333333;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box">
+        <form action="">
+            <h2>Temperature Converter</h2>
+            <input type="number" name="inputbox" id="inputbox" value="0">
+            <div class="input">
+                <input type="radio" id="toF" name="convert">
+                <label for="toF">Celsius to Fahrenheit</label>
+            </div>
+            <div class="input">
+                <input type="radio" name="convert" id="toC">
+                <label for="toC">Fahrenheit to Celsius</label>
+            </div>
+            <button type="button" onclick="convertTemp()">Submit</button>
+            <p id="result"></p>
+        </form>
+    </div>
+
+    <script src="temperatureconv.js"></script>
+</body>
+
+</html>

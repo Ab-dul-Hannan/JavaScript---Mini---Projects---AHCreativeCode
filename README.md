@@ -14,4 +14,5 @@ Here’s a list of the projects (updated regularly):
 2. **Message Generator** - Outputs a user-entered message to their desired times.
 3. **Password Generator** - Creates a secure, random password based on user-selected criteria (length, capital letters, small letters, numbers, and symbols).
 4. **Temperature Converter** - A program to convert temperatures between Celsius and Fahrenheit.
-5. _More projects coming soon..._
+5. **Number Guessing Game** - A fun game where the user guesses a randomly generated number within a specified range.
+6. _More projects coming soon..._

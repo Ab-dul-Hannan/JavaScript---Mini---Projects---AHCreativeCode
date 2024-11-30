@@ -1,6 +1,6 @@
 # JavaScript Mini Projects 🚀
 
-Welcome to the **JavaScript Mini Projects** repository! This is a collection of small, daily projects created to enhance my JavaScript skills as I explore and master the language. Each project demonstrates the application of a specific concept, ranging from beginner to intermediate level.
+Welcome to the **JavaScript Mini Projects** repository! This is a collection of small projects created to enhance my JavaScript skills as I explore and master the language. Each project demonstrates the application of a specific concept, ranging from beginner to intermediate level.
 
 ## About
 This repository serves as:
